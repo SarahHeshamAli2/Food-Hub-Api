@@ -1,11 +1,10 @@
 {
   "name": "food-hub-api",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-"start": "json-server --watch db.json --port $PORT"
+    "start": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
-    "json-server": "^1.0.0"
+    "json-server": "^0.17.3"
   }
 }
